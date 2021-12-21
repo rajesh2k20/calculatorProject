@@ -44,7 +44,7 @@
 }
 #button {
    background-color: rgb(16, 17, 16);
-   grid-row:4/6;
-   grid-column: 4/-1;
+   grid-row: 4 / 6;
+   grid-column: 4/ -1;
 
 }
