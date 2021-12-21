@@ -1,0 +1,50 @@
+.container{
+  margin:auto;
+  margin-top: 171px;
+   background-color: lightgray;
+   width: 80%;
+   height:auto;
+   display: grid;
+   grid-template-columns: repeat(4,25%);
+   grid-template-rows: repeat(5,92px);
+   grid-gap: 2px 2px;
+
+
+}
+.value{
+   text-align: center;
+   margin-top: 33px;
+   color: white;
+}
+.value:hover{
+   cursor: pointer;
+  
+}
+.button:hover{
+   background-color: gray;
+}
+#button:hover{
+   background-color: gray;
+}
+
+#display{
+   
+   font-size: 72px;
+   text-align: center;
+   border-style: solid;
+   border-color: black;
+   background-color: white;
+   grid-column: 1/-1;
+  
+   /* margin-top: 20px; */
+}
+.button{
+   background-color: rgb(16, 17, 16);
+   
+}
+#button {
+   background-color: rgb(16, 17, 16);
+   grid-row:4/6;
+   grid-column: 4/-1;
+
+}
